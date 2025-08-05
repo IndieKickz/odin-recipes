@@ -47,6 +47,22 @@ table {
 	border-spacing: 0;
 }
 
+/* End of CSS reset. Any and all CSS below this point is my own */
+
+body {
+    background-color: #f7a552;
+}
+
 .mainheader {
     font-size: 32px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0px 2px 2px black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.recipes {
+    text-align: center;
+    margin-top: 15px;
 }
