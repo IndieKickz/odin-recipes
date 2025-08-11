@@ -71,6 +71,11 @@ body {
     color: #4A4E69;
 }
 
+.footernav {
+    list-style-type: none;
+    display: inline-flex;
+}
+
 .recipes {
     color: #ae00ff;
     font-size: 20px;
@@ -91,7 +96,7 @@ ul, ol {
     padding-left: 40px;
 }
 
-li {
+.recipelist {
     margin-top: 40px;
 }
 
