@@ -82,7 +82,8 @@ p {
     gap: 2rem;
     padding: 0;
     margin: 0;
-    flex-direction: row;  
+    flex-direction: row;
+    margin-bottom: 40px;
 }
 
 .footernav > li {
@@ -93,7 +94,7 @@ p {
 }
 
 .recipes {
-    color: #ae00ff;
+    color: #4A4E69;
     font-size: 20px;
     margin-left: 40px;
 }
@@ -138,8 +139,23 @@ h3 {
     text-decoration: underline;
 }
 
-.ingredientslist {
+.ingredientlist {
     margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ingredientlist li {
+    padding: 5px 
+}
+
+.stepslist {
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: decimal;
+}
+
+.stepslist li {
+    padding: 10px
 }
 
 .articlep {
